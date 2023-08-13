@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import CTA from '@/components/cta/cta'
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -37,6 +39,11 @@ export default function Home() {
           height={37}
           priority
         />
+
+      </div>
+
+      <div>
+        <CTA />
       </div>
 
       <div className={styles.grid}>

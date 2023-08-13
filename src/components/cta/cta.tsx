@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
-import CallToActionProps from "./call-to-action.props";
+import CTAProps from "./cta.props";
 
-const CallToAction = (props: CallToActionProps) => {
+const CTA = (props: CTAProps) => {
   const { size } = props
   
   return (
@@ -11,4 +11,4 @@ const CallToAction = (props: CallToActionProps) => {
   )
 }
 
-export default CallToAction
+export default CTA
