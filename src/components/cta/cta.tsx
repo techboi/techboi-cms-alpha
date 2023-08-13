@@ -1,9 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-interface CTAProps {
-  size?: string 
-}
+import CTAProps from "./cta.props";
 
 const CTA = (props: CTAProps) => {
   const { size } = props
