@@ -3,7 +3,7 @@ import React from "react"
 import SlideProps from './slide.props'
 import slideStyle from './slide.module.css'
 
-import VideoComp from "@/techboi-design-framework/components/video/video"
+import VideoComp from "../video/video"
 
 const Slide = (props: SlideProps) => {
   const { children, backgroundColor, backgroundVideoSrc, textColor, minHeight } = props
