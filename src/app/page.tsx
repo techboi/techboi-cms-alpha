@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-import CTA from '@/components/cta/cta'
+import CTA from '../components/cta/cta'
 
 export default function Home() {
   return (
