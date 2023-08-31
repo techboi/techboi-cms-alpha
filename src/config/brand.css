@@ -14,13 +14,16 @@
   --font-title: 'nowaymedium';
   --font-headline: 'nowaymedium';
   --font-body: 'nowayregular';
-  
+  /*
+    installed fonts:
+    Expose-Variable, Supreme-Variable, ?Sansation? nowaymedium 
+  */
 
   --container-width: 1242px;
 
 
   /*
-  --font-title: 'Expose-Variable';
+  --font-title: ;
   --font-headline: 'Expose-Variable';
   --font-body: 'Expose-Variable';
   */

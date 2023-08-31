@@ -4,6 +4,11 @@ import { Inter } from 'next/font/google'
 
 // import '@/app/config/brand.css'
 import '../styles/buttons.css'
+import '../styles/colors.css'
+import '../styles/layout.css'
+import '../styles/flex.css'
+import '../styles/gap.css'
+
 
 const inter = Inter({ subsets: ['latin'] })
 

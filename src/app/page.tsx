@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-import CTA from '../components/cta/cta'
+import Card from '@/components/card/card'
+import CTA from '@/components/cta/cta'
 
 export default function Home() {
   return (
@@ -43,6 +44,14 @@ export default function Home() {
       </div>
 
       <div>
+        <h1>All Components</h1>
+
+        <h2>Card</h2>
+        <Card title="test">Test</Card>
+
+        <div className="gap-xxl"></div>
+
+        <h2>CTA</h2>
         <CTA />
       </div>
 
